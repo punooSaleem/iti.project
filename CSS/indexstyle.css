@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: rgb(116, 52, 235);
+    box-shadow: 0px 0px 3px rgb(181, 164, 239);
+    
+    transform: rotateY('180 deg');
+    padding: 2px 4px;
+}
+
+h2 {
+    margin: 2px 2px;
+    padding: 4px;
+    height: 150px;
+  background-image: linear-gradient(to bottom, rgb(236, 221, 221), rgb(142, 248, 137));
+  text-shadow: 2px 2px 5px rgb(235, 125, 176);
+}
+
+div>img {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+ul{
+    width:100%;
+    text-align: center;
+    padding: 29px;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.navbar{
+    background-color: hwb(0 95% 4%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 0px 3px rgba(240, 239, 242,0.3);
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+    
+}
+.navbar a{
+  text-decoration: none;
+  padding: 14px ;
+  font-size:medium;
+}
+
+.navbar a:hover{
+  background-color: aquamarine;
+}
+
+.navbar:hover{
+    box-shadow: 0px 12px 8px 0px rgba(170, 169, 169, 0.3);
+    transition:0.3s;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin:6px;
+}
+.info{
+    border: 2px solid rgb(248, 243, 243);
+    height: 200px;
+    margin: 5px;
+    width: 50%;
+    padding: 10px 8px;
+    flex-grow:2;
+     box-shadow: 0px 12px 8px 0px rgba(254, 252, 252, 0.3);
+    transition:0.3s;
+}
+.info:hover{
+    box-shadow: 0px 12px 8px 0px rgba(170, 169, 169, 0.3);
+    transition:0.3s;
+}
+#iti-image{
+    width: 250px;
+    float: left;
+    height: 100%;
+    border-radius: 0px 3px 3px rgba(0,0,0,0.3);
+    transition:0.4s;
+}
+p{
+    text-align: justify;
+}
+.btn{
+    background: #f4f7f4;
+    text-align: center;
+    height:30px;
+    padding: 4px;
+    margin-top: 25px;
+    margin-right: 13px;
+    border-radius: 10px;
+    font-size:medium;
+    font-family: cursive;
+    font-weight: bold;
+}
+@media(max-width:600px)
+{
+    body{
+        background-color: greenyellow;
+    }
+}
